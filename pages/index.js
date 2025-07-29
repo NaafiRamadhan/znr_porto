@@ -6,15 +6,15 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
+import deved from "../public/z-ed-wave.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
 import web1 from "../public/weblokal.jpg";
 import web2 from "../public/oldporto.jpg";
-import web3 from "../public/SRS_admin.jpg";
-import web4 from "../public/web4.png";
+import web3 from "../public/SRS_Admin.jpg";
+import web4 from "../public/hearmeout.jpg";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 
@@ -106,7 +106,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">AdobeXD</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
@@ -117,11 +117,11 @@ export default function Home() {
                 Do you have an idea for your next great website? Let's make it a
                 reality.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600">Programming Language</h4>
+              <p className="text-gray-800 py-1">HTML</p>
+              <p className="text-gray-800 py-1">CSS</p>
+              <p className="text-gray-800 py-1">JavaScript</p>
+              <p className="text-gray-800 py-1">PHP</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
@@ -130,11 +130,11 @@ export default function Home() {
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600">Tricks that I can</h4>
+              <p className="text-gray-800 py-1">SEO</p>
+              <p className="text-gray-800 py-1">Ads</p>
+              <p className="text-gray-800 py-1">Fungsionalitas</p>
+              <p className="text-gray-800 py-1">Design</p>
             </div>
           </div>
         </section>
